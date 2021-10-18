@@ -25,3 +25,112 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.zbozi {
+    border-radius: 30px;
+    width: 660px;
+    margin: 30px;
+    position: absolute;
+    right: 400px;
+    height: 440px;
+}
+.slogan {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 16px;
+    
+}
+.vizual .bota {
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    width: 140%;
+    height:60%;
+}
+.zbozi .vizual {
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    width: 50%;
+    border-radius: 30px 0px 0px 30px;
+    float: left;
+    padding: 30px;
+    height: 440px;
+}
+.vizual .cenovka {
+    float: right;
+    text-align: right;
+    font-family: 'Rubik', sans-serif;
+    color:white;
+}
+.cenovka .cena{
+    font-weight:500;
+    font-size:28px;
+}
+.cenovka .zaruka{
+    font-size:12px;
+}
+.zbozi .detaily {
+    width: 50%;
+    float: left;
+    padding: 30px;
+    background-color: white;
+    border-radius: 0px 30px 30px 0px;
+    height: 440px;
+}
+
+.detaily .nazev {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.detaily .produkt {
+    color: #959595;
+}
+.detaily .popis {
+    border-bottom: 2px solid;
+    border-color: #06d7c1;
+    padding-bottom: 30px;
+}
+.detaily .parametr {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.velikosti{
+    text-align:left;
+    padding: 0px;
+}
+.velikosti li{
+    display: inline-block;
+    padding: 5px;
+    margin-inline:5px;
+}
+.vybrana {
+    border: 1px solid;
+    border-color: #f15f42;
+    border-radius: 50%;
+    color: #f15f42;
+    font-weight: bolder;
+}
+.detaily .akce {
+    background-color: #f15f42;
+    border-radius: 10px;
+    padding: 15px;
+    width: 140px;
+    position: absolute;
+    bottom: 30px;
+    text-transform: uppercase;
+    text-decoration-color:white;
+}
+.akce .tlacitko {
+    color: white;
+    text-decoration:none;
+    padding-left: 20px;
+}
